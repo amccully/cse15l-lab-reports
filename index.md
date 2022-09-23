@@ -18,3 +18,10 @@ Or even
 ***
 Wow?
 
+`Inline text` example?
+
+```
+# code block
+System.out.println("Yeppers");
+```
+
