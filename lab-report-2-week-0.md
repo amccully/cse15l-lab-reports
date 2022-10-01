@@ -43,4 +43,7 @@ You can try using some of the commands from the screenshot below:
 ## Step 6, Faster Remote Running
 * This step will show us how to quickly edit a file, copy it to the server, and then run it
 * First we need to edit the file, we can use `vi YourFile.java` to enter editing mode
-* Once that is done, simply paste `scp YourFile.java cs15lfa22zz@ieng6.ucsd.edu:~/; ssh cs15lfa22@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
+* Once that is done, simply paste `scp YourFile.java cs15lfa22zz@ieng6.ucsd.edu:~/; ssh cs15lfa22@ieng6.ucsd.edu "javac YourFile.java; java YourFile"`
+
+Note: Normally you wouldn't need to put your password in for this step 
+![Step6Screenshot](FasterAccessImage.png)
