@@ -39,3 +39,8 @@ You can try using some of the commands from the screenshot below:
     3. `scp /Users/yourname/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys` copies the key, make sure to adjust the /Users/ directory to match your default path
 
 ![Step5Screenshot](SSHKeyImage.png)
+
+## Step 6, Faster Remote Running
+* This step will show us how to quickly edit a file, copy it to the server, and then run it
+* First we need to edit the file, we can use `vi YourFile.java` to enter editing mode
+* Once that is done, simply paste `scp YourFile.java cs15lfa22zz@ieng6.ucsd.edu:~/; ssh cs15lfa22@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
