@@ -39,9 +39,9 @@ class WhereAmI {
 }
 ```
 * Then place it somewhere that you know the file path to (in my example, I put it on the Desktop)
-* Run this scp command in the directory of your .java file, changing the appropriate parts as last time: `scp YourFile.java cs15lfa22zz@ieng6.ucsd.edu:~/`
+* Run this scp command in the directory of your .java file, changing the appropriate parts as last time: `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/`
 * The file should now be on the ieng6 machine in the home directory, use the ssh command to login and see if it's there (using ls)!
-* You can also use the `cat` command from earlier to see if the file contents are the same
+* You can also use the `cat` command from earlier to make sure the file contents are the same
 
 ![Step4Screenshot](SCPCommandImage.png)
 
@@ -59,8 +59,9 @@ class WhereAmI {
 
 ## Step 6, Faster Remote Running
 * This step will show us how to quickly edit a file, copy it to the server, and then run it
-* First we need to edit the file, we can use `vi YourFile.java` to enter editing mode
-* Once that is done, simply paste `scp YourFile.java cs15lfa22zz@ieng6.ucsd.edu:~/; ssh cs15lfa22@ieng6.ucsd.edu "javac YourFile.java; java YourFile"`
+* First we need to edit the file, we can use `vi WhereAmI.java` to enter editing mode
+* Once that is done, simply paste `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/; ssh cs15lfa22@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
+* You can always use the up and down arrow keys to navigate through past commands in order to speed up the process
 
 Note: Normally you wouldn't need to put your password in for this step 
 ![Step6Screenshot](FasterAccessImage.png)
