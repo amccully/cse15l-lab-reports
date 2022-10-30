@@ -86,7 +86,9 @@ government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
 
 * We are showing files in the government/Post_Rate_Comm directory which are newer than the Workers_aid_center.txt file in the government/Media directory
+
 ---
+
 ## Command Line Option: -mtime
 
 * This command shows files based on when they were created, in terms of days
