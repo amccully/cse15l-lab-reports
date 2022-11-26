@@ -62,6 +62,7 @@ echo "Grade: $GRADE%"
 * Each command and if statement that is run has an explanation to the side of it
 * Those lines which don't run are identified in the explanations
 * Explanations are surrounded by ()
+
 ```
 # Create your grading script here
 FILENAME="ListExamples.java"
