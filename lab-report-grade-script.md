@@ -1,4 +1,4 @@
-# My grade script file
+# My grading script file
 
 ```
 # Create your grading script here
@@ -45,7 +45,7 @@ GRADE=$(bc <<< "scale=2 ; ($PASSED / $TOTAL)*100")
 echo "Grade: $GRADE%"
 ```
 
-# Screenshots of grade script running
+# Screenshots of grading script running
 * These 3 examples are from the first 3 student submission examples on the list
 
 1. https://github.com/ucsd-cse15l-f22/list-methods-lab3
